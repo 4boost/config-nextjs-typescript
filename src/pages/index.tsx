@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import { Container } from '../styles/pages/Home'
 
-const Home: React.FC = () => {
+function Home(): JSX.Element {
   return (
     <Container>
       <Head>
